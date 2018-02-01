@@ -1,0 +1,9 @@
+
+.header > .row > div {
+	height: 40px;	
+	line-height: 40px;
+	text-align: center;
+	color: #808080;
+	font-size: 13px;
+	border: 1px solid #808080;
+}
