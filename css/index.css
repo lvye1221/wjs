@@ -10,6 +10,10 @@
 
 
 
+/* 轮播图样式 */
+.carousel-inner .item img {
+	margin: 0 auto;
+}
 
 
 

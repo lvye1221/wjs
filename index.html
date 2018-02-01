@@ -104,15 +104,26 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="images/slide_01_2000x410.jpg" alt="...">
+      <!-- 大图 在小屏幕隐藏
+      	
+      	hidden-xs  在超小屏幕 隐藏
+      	hidden-sm  在小屏幕 隐藏
+      	hidden-md  在中屏幕 隐藏
+      	hidden-gl  在大屏幕 隐藏
+      -->
+      <img src="images/slide_01_2000x410.jpg" alt="..." class="hidden-xs hidden-sm">
+      
+      <!-- 小图 在大屏幕隐藏-->
+      <img src="images/slide_01_640x340.jpg" alt="..." class="hidden-gl hidden-md">
+
       <div class="carousel-caption">
-		
       </div>
     </div>
     <div class="item">
-      <img src="images/slide_02_2000x410.jpg" alt="...">
-      <div class="carousel-caption">
+      <img src="images/slide_02_2000x410.jpg" alt="..."  class="hidden-xs hidden-sm">
+ 	  <img src="images/slide_02_640x340.jpg" alt="..."  class="hidden-gl hidden-md">
 
+      <div class="carousel-caption">
       </div>
     </div>
   </div>
